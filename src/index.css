@@ -3,31 +3,38 @@ body {
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #FAF6F7;
+  color: #15151B;
 }
 
 h1 {
   font-size: min(max(32px, 4vw),48px);
   font-family: 'Roboto';
   margin: 0;
+  line-height: min(max(1.25em, 4vw), 1.05em)
 }
 
 h2 {
   font-size: min(max(26px, 4vw),36px);
   font-family: 'Roboto';
+  line-height: min(max(1.15em, 4vw), 1.25em)
 }
 
 h3 {
   font-size: min(max(22px, 4vw),28px);
   font-family: 'Roboto';
+  line-height: min(max(1.136em, 4vw), 1.25em)
 }
 
-h4 {
-  font-size: min(max(18px, 4vw),20px);
+h4, a {
+  font-size: 18px;
   font-family: 'Roboto';
+  line-height: min(max(1.111em, 4vw), 1.222em)
 }
 
 p {
-  font-size: min(max(14px, 4vw),16px);
+  font-size: 16px;
+  line-height: min(max(1.25em, 4vw), 1.375em)
 }
 
 code {

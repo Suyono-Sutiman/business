@@ -4,19 +4,17 @@ import './Hero.css';
 class Hero extends React.Component {
     render () {
         return (
-            <div className='hero'>
-                <div className='hero-left'></div>
-                <div className='hero-right'>
+            <div className='hero' id='home'>
+                <div className='hero-top'>
                     <h3>
-                        We are<br/>
-                        No[o]ne Business
+                        Coffee
                     </h3>
                     <p>
                     Lorem Ipsum is simply dummy text of the
                     printing and typesetting industry.
                     </p>
                 </div>
-                <div className="hero-mid"></div>
+                <div className='hero-bot'></div>
             </div>
         )
     }

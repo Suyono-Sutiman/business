@@ -1,0 +1,35 @@
+.vision {
+    text-align: left;
+}
+.vis-img {
+    width: 20%;
+    height: 20%;
+    transform: rotate(45deg);
+    border: 5px solid #280F08;
+}
+.vis-left {
+    width: 90%;
+    padding: 60px 5%;
+    background: #280F08;
+    color: #FAF6F7;
+}
+.vis-bot {
+    padding: 0 5%;
+}
+@media (min-width:768px) {
+    .vis-top {
+        display: flex;
+        justify-content: space-between;
+    }
+    .vis-left {
+        width: 30%;
+        height: 60vh;
+    }
+    .vis-right {
+        width: 60%;
+        background: url(../Image/cup.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+}
