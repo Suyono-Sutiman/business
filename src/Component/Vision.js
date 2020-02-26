@@ -24,23 +24,6 @@ class Vision extends React.Component {
                     </div>
                     <div className='vis-right'></div>
                 </div>
-                <div className='vis-bot'>
-                    <h4>LOREM IPSUM IS SIMPLY</h4>
-                    <p>
-                    Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry. Ut
-                    wisi enim ad minim veniam, quis
-                    nostrud exerci tation ullamcorper
-                    suscipit lobortis nisl ut aliquip ex ea
-                    commodo consequat.
-                    </p>
-                    <p>
-                    Lorem Ipsum is simply dummy text of the printing 
-                    and typesetting industry. Ut wisi enim ad minim
-                    veniam, quis nostrud exerci tation ullamcorper 
-                    suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
             </div>
         )
     }

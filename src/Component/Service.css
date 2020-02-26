@@ -1,0 +1,74 @@
+.service {
+    text-align: left;
+}
+.ser-left {
+    padding: 5%;
+    width: 90%;
+}
+ol {
+    counter-reset: my-awesome-counter;
+    list-style: none;
+}
+ol li {
+    margin-block-start: 1em;
+
+    counter-increment: my-awesome-counter;
+    position: relative;
+}
+ol li::before {
+    content: "";
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    transform: rotate(45deg);
+    background: #280F08;
+    border-radius: 35%;
+    text-align: center;
+}
+ol li::after {
+    content: counter(my-awesome-counter);
+    color: #FAF6F7;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    text-align: center;
+}
+@media (min-width:768px) {
+    .ser-left {
+        width: 45%;
+    }
+    .ser-right {
+        width: 45%;
+        background: #280F08;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .service {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ser-img {
+        width: 30vw;
+        height: 30vw;
+        background: url(../Image/biji.jpg);
+        background-size: contain;
+        transform: rotate(45deg);
+        border-radius: 35%;
+    }
+}
+@media (min-width:1024px) {
+    .ser-img {
+        width: 20vw;
+        height: 20vw;
+    }
+}

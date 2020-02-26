@@ -36,6 +36,6 @@
 }
 @media (min-width:1024px) {
     .hero-bot {
-        background-size: contain;
+        background-size: cover
     }
 }

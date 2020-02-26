@@ -1,25 +1,25 @@
-.vision {
+.mision {
     text-align: left;
 }
-.vis-left {
+.mis-left {
     width: 90%;
     padding: 5%;
     background: #280F08;
     color: #FAF6F7;
 }
-.vis-bot {
+.mis-bot {
     padding: 0 5%;
 }
 @media (min-width:768px) {
-    .vis-top {
+    .mis-top {
         display: flex;
         justify-content: space-between;
     }
-    .vis-left {
+    .mis-left {
         width: 30%;
         background: none;
     }
-    .vis-right {
+    .mis-right {
         width: 60%;
     }
 }

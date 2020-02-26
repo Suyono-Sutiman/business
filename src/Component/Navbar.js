@@ -39,7 +39,7 @@ class Navbar extends React.Component {
                     <h4><a href='#vision'>
                     Vision</a>
                     </h4>
-                    <h4><a href='#introduction'>
+                    <h4><a href='#service'>
                     Services</a>
                     </h4>
                     <h4><a href='#introduction'>
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
                     <h4><a href='#vision'>
                     Vision</a>
                     </h4>
-                    <h4><a href='#introduction'>
+                    <h4><a href='#service'>
                     Services</a>
                     </h4>
                     <h4><a href='#introduction'>
