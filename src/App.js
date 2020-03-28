@@ -7,6 +7,7 @@ import Vision from './Component/Vision';
 import Mision from './Component/Mision';
 import Service from './Component/Service';
 import Team from './Component/Team';
+import Contact from './Component/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </div>
       <Service/>
       <Team/>
+      <Contact/>
     </div>
   );
 }

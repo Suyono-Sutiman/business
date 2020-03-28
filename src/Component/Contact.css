@@ -1,0 +1,11 @@
+.cont {
+    background: #280F08;
+    color: #FAF6F7;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont p {
+    margin-bottom: 0;
+}
