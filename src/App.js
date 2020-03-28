@@ -6,6 +6,7 @@ import Intro from './Component/Intro';
 import Vision from './Component/Vision';
 import Mision from './Component/Mision';
 import Service from './Component/Service';
+import Team from './Component/Team';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Mision/>
       </div>
       <Service/>
+      <Team/>
     </div>
   );
 }

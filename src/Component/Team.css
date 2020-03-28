@@ -1,0 +1,19 @@
+.team-img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 5px solid #280F08;
+}
+@media (min-width:768px) {
+    .team-blok {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .team-tag {
+        width: 50%;
+    }
+    .team-img {
+        width: 25vw;
+        height: 25vw;
+    }
+}
